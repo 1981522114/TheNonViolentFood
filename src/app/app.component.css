@@ -1,0 +1,80 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: top 0.3s ease-in-out;
+  z-index: 9999;
+}
+
+.transparent-chips {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+mat-chip {
+  padding: 16px 40px !important;
+  background-color: rgba(0, 0, 0, 0.5) !important; 
+
+}
+
+
+
+.example-card {
+  max-width: 400px;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  color: white;
+}
+
+.example-header-image {
+  background-image: url('../assets/site-banner.jpg');
+  background-size: cover;
+}
+
+/*Banner*/
+.hero-image {
+  height: 100vh;
+  background-image:
+    url("../assets/site-banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 22%;
+  left:20%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+
+/* Banner end*/
+
+.circle-containers {
+  display: flex;
+  align-items: center!important;
+  justify-content: space-between;
+}
+
+.custom-card {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4px;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+
+
