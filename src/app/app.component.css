@@ -78,3 +78,28 @@ mat-chip {
 
 
 
+/* Media Queries */
+
+/* Small devices (up to 576px) */
+@media (max-width: 576px) {
+  .hero-text {
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+/* Medium devices (between 576px and 992px) */
+@media (min-width: 576px) and (max-width: 992px) {
+  .circle-containers {
+    flex-wrap: wrap;
+  }
+}
+
+/* Large devices (above 992px) */
+@media (min-width: 992px) {
+  .circle-containers {
+    justify-content: space-around;
+  }
+}
+
