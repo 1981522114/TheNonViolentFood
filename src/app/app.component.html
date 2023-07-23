@@ -1,68 +1,67 @@
 <div class="hero-image">
   <div class="hero-text">
-    <h1>how can you expect justice when <br>you are doing injustice<br> to others?</h1>
+    <!-- <h1>how can you expect justice when <br>you are doing injustice<br> to others?</h1> -->
 
   </div>
 </div>
 
 
 
-  <mat-toolbar color="primary" [ngClass]="{'mat-elevation-z5' : true, 'sticky' : isSticky}">
-    <button *ngIf="isSticky" mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
-      <mat-icon>shield</mat-icon>
-    </button>
-    <span *ngIf="isSticky">The Non-Violent Food</span>
-    <span class="example-spacer"></span>
-    <div class="circle-containers" *ngIf="!isSticky">
+<mat-toolbar color="primary" [ngClass]="{'mat-elevation-z5' : true, 'sticky' : isSticky}">
+  <button *ngIf="isSticky" mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+    <mat-icon>shield</mat-icon>
+  </button>
+  <span *ngIf="isSticky">The Non-Violent Food</span>
+  <span class="example-spacer"></span>
+  <!-- <div class="circle-containers" *ngIf="!isSticky">
       <mat-card class="custom-card">
-        <!-- Add your content here, e.g., text or image -->
+      
         <p>Value</p>
       </mat-card>
       <mat-card class="custom-card">
-        <!-- Add your content here, e.g., text or image -->
+       
         <p>Justice</p>
       </mat-card>
       <mat-card class="custom-card">
-        <!-- Add your content here, e.g., text or image -->
+     
         <p>Self purity</p>
       </mat-card>
-    </div>
-    <!-- <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+    </div> -->
+  <!-- social -->
+  <!-- <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
       <mat-icon>favorite</mat-icon>
     </button>
     <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
       <mat-icon>share</mat-icon>
     </button> -->
-  </mat-toolbar>
-<br><br><br><br>
-  <mat-grid-list cols="4" rowHeight="100px">
-    <mat-grid-tile  *ngFor="let tile of tiles"  [colspan]="tile.cols"  [rowspan]="tile.rows"  [style.background]="tile.color">
-      {{tile.text}}
-    </mat-grid-tile>
-  </mat-grid-list>
-  <p>
-..................<br>..................<br>..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>................</p>
+</mat-toolbar>
+<br>
+
+<mat-grid-list cols="2" rowHeight="2:1">
+  <mat-grid-tile>
+   
+  </mat-grid-tile>
+  <mat-grid-tile>2</mat-grid-tile>
+  <mat-grid-tile>3</mat-grid-tile>
+  <mat-grid-tile>
+    <img
+    src="https://img.freepik.com/free-photo/big-black-buffalo-fields-covered-with-tall-grass-captured-african-jungles_181624-5688.jpg?w=1380&t=st=1690129322~exp=1690129922~hmac=d435a8c76250296952fde156bbe80ab21144f1794a41657c6fc773ed066fcfbb"
+    alt="beer">
+  </mat-grid-tile>
+</mat-grid-list>
+<br>
+<mat-grid-list cols="4" rowHeight="100px">
+  <mat-grid-tile [colspan]="3" [rowspan]="1" style="background-color:#ddbdf1">
+    One
+  </mat-grid-tile>
+</mat-grid-list>
+
+<mat-grid-list cols="4" rowHeight="100px">
+  <mat-grid-tile *ngFor="let tile of tiles" [colspan]="tile.cols" [rowspan]="tile.rows" [style.background]="tile.color">
+    {{tile.text}}
+  </mat-grid-tile>
+</mat-grid-list>
+
 
 <!-- <mat-card class="example-card">
     <mat-card-header>
@@ -83,53 +82,3 @@
       <button mat-button>SHARE</button>
     </mat-card-actions>
   </mat-card> -->
-
- 
-..................<br>..................<br>
-..................<br>..................<br> ..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>
-..................<br>..................<br>

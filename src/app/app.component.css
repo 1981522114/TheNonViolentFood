@@ -24,7 +24,7 @@ mat-chip {
 
 
 
-.example-card {
+/* .example-card {
   max-width: 400px;
   background-color: rgba(0, 0, 0, 0.5) !important;
   color: white;
@@ -33,13 +33,13 @@ mat-chip {
 .example-header-image {
   background-image: url('../assets/site-banner.jpg');
   background-size: cover;
-}
+} */
 
 /*Banner*/
 .hero-image {
   height: 100vh;
   background-image:
-    url("../assets/site-banner.jpg");
+    url("../assets/slide_2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
